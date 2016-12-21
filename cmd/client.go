@@ -1,13 +1,12 @@
 package cmd
 
 import (
+	"context"
 	"encoding/json"
 	"io"
 	"net/http"
 	"net/url"
 	"path"
-
-	"golang.org/x/net/context"
 
 	"github.com/pkg/errors"
 )

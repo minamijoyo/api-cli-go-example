@@ -1,12 +1,11 @@
 package cmd
 
 import (
+	"context"
 	"fmt"
 	"net/http"
 	"reflect"
 	"testing"
-
-	"golang.org/x/net/context"
 )
 
 func TestStackShow(t *testing.T) {

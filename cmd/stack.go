@@ -1,14 +1,13 @@
 package cmd
 
 import (
+	"context"
 	"fmt"
 	"strconv"
 	"time"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-
-	"golang.org/x/net/context"
 )
 
 func init() {
